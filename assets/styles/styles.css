@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -160,8 +161,18 @@ body {
     border-radius: 15px;
     font-weight: bold;
     color: white;
-
 }
+
+.boton a {
+    text-decoration: none;
+    color: white;
+}
+
+.boton:hover {
+    background-color: #000000;
+    
+}
+
 .margen {
     margin-top: 5%;
 }
@@ -222,7 +233,7 @@ body {
     display: block;
 }
 
-.login_olv a {
+.login a {
     text-decoration: none;
     color: #592081;
 }
@@ -243,4 +254,18 @@ body {
 
 .login_button:hover {
     background-color:#DCB4F9;
+}
+
+.song_div {
+    display: inline-block;
+    margin: auto;
+    padding: 50px;
+}
+
+.song_div_2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
